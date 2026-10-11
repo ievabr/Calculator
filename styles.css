@@ -1,0 +1,91 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    font-weight:700;
+    font-size:28px;
+    background-color: #E1DCC9;
+}
+img {
+    width:100px;
+    height:50px;
+}
+
+.container {
+    display:flex;
+    justify-items:center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left:525px;
+    margin-right:525px;
+
+    gap:20px;
+    padding:20px;
+    background-color: rgb(115 151 106 / 80%);
+    margin-top:50px;
+    border-radius: 10px;
+
+}
+input {
+    font-size:25px;
+   width: 300px;
+   height:80px;
+   padding: 20px;
+
+   background-color:rgb(0 0 0 / 80%);
+   border-radius: 10px;
+   border: 1px solid black;
+   color:cornsilk;
+}
+.buttons {
+    display:flex;
+    gap: 20px;
+    align-items: start;
+}
+
+
+.numbers {
+    display:grid;
+    grid-template-columns: repeat(3, 80px);
+    gap: 10px;
+    
+}
+.operations {
+    display:grid;
+    gap:10px;
+
+}
+button {
+    font-size:20px;
+    display: flex;
+    padding:10px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    appearance: none;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-weight: 800;
+    width:1/3fr;
+
+
+}
+.back {
+    font-size:25px;
+    background-color: #F4AE52;
+}
+.number {
+    background-color: #1F150C;
+    color: #E1DCC9;
+
+}
+.operation-plus, .operation-minus, .operation-multiplication, .operation-division, #dot {
+    background-color: #BD4444;
+    color:#E1DCC9;
+}
+.clear {
+    background-color: #F4AE52;
+}
+.evaluate {
+    background-color: #2A6B5C;;
+}
