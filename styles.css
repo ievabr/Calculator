@@ -15,7 +15,7 @@ main {
 }
 .container {
     width:600px;
-    height:500px;
+    height:520px;
     display:flex;
     justify-items:center;
     align-items: center;
